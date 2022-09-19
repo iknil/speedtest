@@ -1,0 +1,42 @@
+Arguments: 
+  /home/iknil/.nvm/versions/node/v16.17.0/bin/node /home/iknil/.nvm/versions/node/v16.17.0/bin/yarn info
+
+PATH: 
+  /app/code-server/lib/vscode/bin/remote-cli:/home/iknil/.nvm/versions/node/v16.17.0/bin:/command:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError: Cannot convert undefined or null to object
+      at keys (<anonymous>)
+      at Object.<anonymous> (/home/iknil/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:84781:59)
+      at Generator.next (<anonymous>)
+      at step (/home/iknil/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/iknil/.nvm/versions/node/v16.17.0/lib/node_modules/yarn/lib/cli.js:321:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+npm manifest: 
+  {
+    "name": "speedtest",
+    "version": "1.0.0",
+    "description": "net speedtest client & server",
+    "main": "index.js",
+    "private": true,
+    "workspaces": ["workspaces/*"],
+    "repository": "git@github.com:iknil/speedtest.git",
+    "author": "iknil <lk.nil@outlook.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,11 @@
+{
+  "name": "speedtest",
+  "version": "1.0.0",
+  "description": "net speedtest client & server",
+  "main": "index.js",
+  "private": true,
+  "workspaces": ["workspaces/*"],
+  "repository": "git@github.com:iknil/speedtest.git",
+  "author": "iknil <lk.nil@outlook.com>",
+  "license": "MIT"
+}
